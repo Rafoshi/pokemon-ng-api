@@ -1,0 +1,15 @@
+<div class="title">
+  <h1>Lista de 20 pokemons - Ex 1</h1>
+</div>
+@for(pokemon of pokemons; track $index) {
+  <ul>
+    <li>
+      <div class="pokemon-container">
+        <a href="{{pokemon.url}}">
+          <img src="{{ pokemon.imageUrl }}">
+          <p>{{ pokemon.name }}</p>
+        </a>
+      </div>
+    </li>
+  </ul>
+}

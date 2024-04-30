@@ -1,0 +1,20 @@
+.pokemon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  list-style-type: none;
+}
+p{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+a{
+  all:unset;
+}
+.title{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
