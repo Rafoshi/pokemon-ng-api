@@ -1,1 +1,22 @@
-<p>ibge works!</p>
+<div class="title">
+    <h1> Tabela IBGE - Ex 2 </h1>
+</div>
+
+<div class ="ibge-container">
+  <table>
+    <thead>
+        <td>ID</td>
+        <td>Nome</td>
+        <td>Sigla</td>
+    </thead>
+    <tbody>
+        @for(estado of estados; track $index){
+          <tr>
+            <td>{{ estado.id }}</td>
+            <td>{{estado.nome}}</td>
+            <td>{{estado.sigla}}</td> 
+          </tr>
+        }
+    </tbody>
+</table>
+</div>

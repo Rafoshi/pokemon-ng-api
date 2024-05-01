@@ -1,0 +1,10 @@
+.ibge-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}

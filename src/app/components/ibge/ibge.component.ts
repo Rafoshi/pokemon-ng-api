@@ -16,7 +16,7 @@ export class IbgeComponent {
   constructor(private ibgeService: IbgeService){}
 
   listar():void{
-     this.ibgeService.listar().subscribe((estados) => (this.estados));
+     this.ibgeService.listar().subscribe((estados) => {this.estados = estados});
   }
   ngOnInit(){
      this.listar();
